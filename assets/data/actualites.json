@@ -1,36 +1,36 @@
 {
   "items": [
     {
-      "badge": "Nouvelle application",
-      "date_label": "Actualité",
-      "title": "Lancement de Tardy Pro",
-      "image": "assets/img/actu-tardypro.jpg",
-      "image_alt": "Tardy Pro — application web et mobile OB GROUPE",
-      "body": "OB GROUPE lance <strong>Tardy Pro</strong>, une application web et mobile qui centralise tout le parc technique — climatisation, froid, énergie — pour piloter la maintenance au lieu de la subir : score de risque de panne, homogénéité des chambres froides, suivi de consommation énergétique et interventions en temps réel.",
-      "cta_primary_label": "Accéder à la version web",
+      "body": "OB GROUPE lance <strong>Tardy Pro</strong>, une application web et mobile qui centralise tout le parc technique de machines ou appareils — exemple : climatisation, froid, énergie — pour piloter la maintenance au lieu de la subir : score de risque de panne, homogénéité des chambres froides, suivi de consommation énergétique et interventions en temps réel.",
       "cta_primary_url": "https://tardypro.ob-groupe.net",
-      "cta_secondary_label": "En savoir plus",
-      "cta_secondary_url": "applications.html",
+      "date_label": "Actualité",
+      "badge": "Nouvelle application",
       "recruit_poste": "",
-      "recruit_email": "",
+      "image_alt": "Tardy Pro — application web et mobile OB GROUPE",
+      "recruit_whatsapp_label": "",
+      "cta_primary_label": "Accéder à la version web",
       "recruit_whatsapp": "",
-      "recruit_whatsapp_label": ""
+      "cta_secondary_url": "applications.html",
+      "title": "Lancement de Tardy Pro",
+      "cta_secondary_label": "En savoir plus",
+      "image": "assets/img/logo_tardy_pro_fond_clair.png",
+      "recruit_email": ""
     },
     {
-      "badge": "Recrutement",
-      "date_label": "Offre de stage",
-      "title": "OB GROUPE recrute deux stagiaires",
-      "image": "assets/img/actu-recrutement-hero.jpg",
-      "image_alt": "OB GROUPE recrute deux stagiaires à Yamoussoukro",
       "body": "Dans le cadre de son développement, OB GROUPE ouvre <strong>2 postes de stagiaire</strong> à <strong>Yamoussoukro</strong> : un(e) <strong>Stagiaire Commercial(e)</strong> et un(e) <strong>Stagiaire Assistant(e)</strong>. Une belle opportunité de rejoindre une entreprise technique en pleine croissance.",
-      "cta_primary_label": "Postuler par e-mail",
       "cta_primary_url": "mailto:contact@ob-groupe.net?subject=Candidature%20stage%20-%20Yamoussoukro",
-      "cta_secondary_label": "Écrire sur WhatsApp",
-      "cta_secondary_url": "https://wa.me/2250709354885",
+      "date_label": "Offre de stage",
+      "badge": "Recrutement",
       "recruit_poste": "Stagiaire Commercial(e) & Stagiaire Assistant(e) — Yamoussoukro",
-      "recruit_email": "contact@ob-groupe.net",
+      "image_alt": "OB GROUPE recrute deux stagiaires à Yamoussoukro",
+      "recruit_whatsapp_label": "07 09 35 48 85",
+      "cta_primary_label": "Postuler par e-mail",
       "recruit_whatsapp": "https://wa.me/2250709354885",
-      "recruit_whatsapp_label": "07 09 35 48 85"
+      "cta_secondary_url": "https://wa.me/2250709354885",
+      "title": "OB GROUPE recrute deux stagiaires",
+      "cta_secondary_label": "Écrire sur WhatsApp",
+      "image": "assets/img/actu-recrutement-hero.jpg",
+      "recruit_email": "contact@ob-groupe.net"
     }
   ]
 }
