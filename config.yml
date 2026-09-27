@@ -1,0 +1,84 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+media_folder: "assets/img/uploads"
+public_folder: "assets/img/uploads"
+
+locale: "fr"
+
+collections:
+  - name: "actualites"
+    label: "Actualités"
+    files:
+      - file: "assets/data/actualites.json"
+        label: "Liste des actualités"
+        name: "actualites"
+        fields:
+          - label: "Actualités"
+            name: "items"
+            widget: "list"
+            label_singular: "Actualité"
+            summary: "{{title}}"
+            fields:
+              - { label: "Badge (haut de l'image)", name: "badge", widget: "string" }
+              - { label: "Étiquette date", name: "date_label", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+              - { label: "Texte alternatif de l'image", name: "image_alt", widget: "string", required: false }
+              - { label: "Texte", name: "body", widget: "text" }
+              - { label: "Bouton principal — libellé", name: "cta_primary_label", widget: "string", required: false }
+              - { label: "Bouton principal — lien", name: "cta_primary_url", widget: "string", required: false }
+              - { label: "Bouton secondaire — libellé", name: "cta_secondary_label", widget: "string", required: false }
+              - { label: "Bouton secondaire — lien", name: "cta_secondary_url", widget: "string", required: false }
+              - { label: "Recrutement — intitulé du/des poste(s) (laisser vide si non concerné)", name: "recruit_poste", widget: "string", required: false }
+              - { label: "Recrutement — email", name: "recruit_email", widget: "string", required: false }
+              - { label: "Recrutement — lien WhatsApp (https://wa.me/225...)", name: "recruit_whatsapp", widget: "string", required: false }
+              - { label: "Recrutement — texte WhatsApp affiché", name: "recruit_whatsapp_label", widget: "string", required: false }
+
+  - name: "galerie"
+    label: "Médiathèque"
+    files:
+      - file: "assets/data/galerie.json"
+        label: "Visuels de la médiathèque"
+        name: "galerie"
+        fields:
+          - label: "Visuels"
+            name: "items"
+            widget: "list"
+            label_singular: "Visuel"
+            summary: "{{title}}"
+            fields:
+              - label: "Catégorie"
+                name: "cat"
+                widget: "select"
+                options:
+                  - { label: "Actualités", value: "actu" }
+                  - { label: "Politique & engagements", value: "politique" }
+                  - { label: "Orientation & vision", value: "vision" }
+                  - { label: "Réalisations", value: "real" }
+              - { label: "Étiquette catégorie affichée", name: "cat_label", widget: "string" }
+              - { label: "Étiquette date", name: "date_label", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Texte", name: "body", widget: "text" }
+              - { label: "Image", name: "image", widget: "image", media_folder: "assets/img/media", public_folder: "assets/img/media" }
+              - { label: "Texte alternatif de l'image", name: "alt", widget: "string", required: false }
+
+  - name: "photos"
+    label: "Photos du site (vitrine & corps de métier)"
+    files:
+      - file: "assets/data/photos.json"
+        label: "Photos"
+        name: "photos"
+        fields:
+          - { label: "Vitrine — photo 1 (techniciens)", name: "hero-1", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Vitrine — photo 2 (logo)", name: "hero-2", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Vitrine — photo 3 (Tardy Pro)", name: "hero-3", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Vitrine — photo 4 (recrutement)", name: "hero-4", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Corps de métier — Froid & climatisation", name: "domaine-froid", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Corps de métier — Électricité BT", name: "domaine-electricite", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Corps de métier — Automatisme", name: "domaine-automatisme", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Corps de métier — Instrumentation", name: "domaine-instrumentation", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Corps de métier — Sécurité électronique", name: "domaine-securite", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
+          - { label: "Corps de métier — Solutions numériques", name: "domaine-numerique", widget: "image", media_folder: "assets/img", public_folder: "assets/img" }
