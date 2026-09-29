@@ -1,12 +1,12 @@
 {
-  "hero-1": "assets/img/hero.jpg",
-  "hero-2": "assets/img/hero-logo-slide.jpg",
   "hero-3": "assets/img/actu-tardypro.jpg",
   "hero-4": "assets/img/actu-recrutement-hero.jpg",
-  "domaine-froid": "assets/img/domaine-froid.jpg",
-  "domaine-electricite": "assets/img/domaine-electricite.jpg",
-  "domaine-automatisme": "assets/img/domaine-automatisme.jpg",
   "domaine-instrumentation": "assets/img/domaine-instrumentation.jpg",
+  "domaine-automatisme": "assets/img/domaine-automatisme.jpg",
+  "domaine-electricite": "assets/img/domaine-electricite.jpg",
+  "domaine-froid": "assets/img/domaine-froid.jpg",
   "domaine-securite": "assets/img/domaine-securite.jpg",
-  "domaine-numerique": "assets/img/domaine-numerique.jpg"
+  "hero-1": "assets/img/hero.jpg",
+  "domaine-numerique": "assets/img/domaine-numerique.jpg",
+  "hero-2": "assets/img/webinaire-ob-groupe.jpeg"
 }
